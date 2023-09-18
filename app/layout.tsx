@@ -23,6 +23,7 @@ export default function RootLayout({
           <Header />
           <Main>{children}</Main>
           <Footer />
+
         </ChakraProvider>
       </body>
     </html>
